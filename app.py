@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
- app = Flask(__name__)
+app = Flask(__name__)
 
  # Mock data for tasks
 
