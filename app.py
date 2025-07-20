@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request
+
 app = Flask(__name__)
 
  # Mock data for tasks
-
  tasks_db = [ 
      {"id": 1, "title": "Complete Survey", "location": "Lagos", "price": "₦500"},
      {"id": 2, "title": "Share Post", "location": "Remote", "price": "₦300"}, 
