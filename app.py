@@ -24,4 +24,4 @@ def health_check():
 
 # Run the Flask ap if this script is executed
 if __name__ == '__main__':
-    app.run(debug=True)  # use debug mode only
+    app.run(debug=True)  # use debug mode only for development
